@@ -1,0 +1,93 @@
+.html {
+  font-size: 100%;
+  overflow-y: scroll;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+
+body {
+  /* line-height: 1.7; */
+  margin-left: 5%;
+  max-width: 42em;
+}
+
+.impressum {
+  right: 1em;
+  background-color: white;
+  position: absolute;
+}
+
+.post-title-box {
+  display: flex;
+  height: 2.5em;
+  align-items: flex-start
+}
+
+.post-title {
+  font-size: 1.3em;
+}
+
+.post-title-page {
+  font-size: 1.3em;
+  color: #aaaaaa;
+}
+
+.date {
+  margin-left: auto;
+  font-size: 0.75em;
+}
+
+a {
+  color: #4a4a4a;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #aaaaaa;
+}
+
+a:hover {
+  color: #6a6a6a;
+}
+
+a:active {
+  color: #faa700;
+}
+
+a:focus {
+  outline: thin dotted;
+}
+
+img,
+video {
+  max-width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #111;
+  line-height: 125%;
+  font-weight: normal;
+}
+
+h4,
+h5,
+h6 {
+  font-weight: bold;
+}
+
+.footer {
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  background: #ffffff;
+
+  p {
+    font-size: 75%;
+    width: 90%;
+  }
+}
